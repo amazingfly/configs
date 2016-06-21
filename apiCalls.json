@@ -1,0 +1,71 @@
+{
+    "v1/wiki/search": {
+        "resultTimeoutMs": 100,
+        "cache": {
+            "enabled": true,
+            "expirationTimeSec": 10
+        },
+        "requiredParams": {},
+        "commands": [{
+            "name": "viewWiki",
+            "resultTimeoutMs": 500,
+            "returnAfter": false,
+            "configParams": {}
+        }]
+    },
+    "v1/wiki/history": {
+        "resultTimeoutMs": 100,
+        "cache": {             "enabled": true,
+            "expirationTimeSec": 10
+        },
+        "requiredParams": {},
+        "commands": [{
+            "name": "viewHistory",
+            "resultTimeoutMs": 500,
+            "returnAfter": false,
+            "configParams": {}
+        }]
+    },
+    "v1/wiki/auth": {
+        "resultTimeoutMs": 100,
+        "cache": {
+            "enabled": true,
+            "expirationTimeSec": 10
+        },
+        "requiredParams": {},
+        "commands": [{
+            "name": "auth",
+            "resultTimeoutMs": 500,
+            "returnAfter": false,
+            "configParams": {}            
+        }]
+    },
+    "v1/wiki/searchx": {
+        "resultTimeoutMs": 100,
+        "cache": {
+            "enabled": true,
+            "expirationTimeSec": 10
+        },
+        "requiredParams": {},
+        "commands": [{
+            "name": "searchField",
+            "resultTimeoutMs": 500,
+            "returnAfter": false,
+            "configParams": {}
+        }]
+    },
+    "v1/wiki/register": {
+        "resultTimeoutMs": 100,
+        "cache": {
+            "enabled": true,
+            "expirationTimeSec": 10
+        },
+        "requiredParams": {},
+        "commands": [{
+            "name": "reg",
+            "resultTimeoutMs": 500,
+            "returnAfter": false,
+            "configParams": {}
+        }]
+    }
+}
